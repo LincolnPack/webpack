@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    background-size: 100%;
+}
+
+.header {
+    height: 85px;
+    line-height: 85px;
+    padding-top: 46px;
+    text-align: center;
+    color: #fff;
+    background: #1f3daf;
+    font-size: 30px;
+    width: 100%;
+    position: absolute;
+}
+
+.content {
+    height: 100%;
+    box-sizing: border-box;
+    padding: 131px 20px 0 20px;
+}
+
+.personnel_state>h1,
+.car_state>h1 {
+    color: #3c4f5e;
+    font-size: 28px;
+    padding-left: 44px;
+    height: 80px;
+    line-height: 80px;
+    border-bottom: 1px solid #edeff0;
+}
+
+.personnel_state>h1::before,
+.car_state>h1::before {
+    position: absolute;
+    left: 20px;
+}
+
+.common_top {
+    overflow: hidden;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.common_top>dl {
+    width: 33.3333%;
+    box-sizing: border-box;
+    float: left;
+    margin: 22px 0;
+    padding: 15px 0;
+}
+
+.common_top>dl>dt {
+    text-align: center;
+    color: #0071d4;
+    font-size: 24px;
+}
+
+.common_top>dl>dd {
+    text-align: center;
+    color: #3c4f5e;
+    font-size: 24px;
+    padding-top: 25px;
+}
+
+.emphasis {
+    border-left: 1px solid #e7e7e7;
+    border-right: 1px solid #e7e7e7;
+}
