@@ -1,2 +1,2 @@
-import '../css/taskDetails.css';
+import '../css/index.css';
 import 'lib-flexible/flexible.js';

@@ -96,6 +96,8 @@ module.exports = {
         //服务端压缩是否开启
         compress: true,
         //配置服务端口号
-        port: 8080
+        port: 8080,
+        //默认打开的页面
+        openPage: 'index.html'
     }
 }

@@ -5,7 +5,7 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "dev": "webpack-dev-server --mode development --progress --watch  --config ./webpack.config.js",
+        "dev": "webpack-dev-server --mode development --progress --watch --open --config ./webpack.config.js",
         "build": "webpack --mode production"
     },
     "author": "",
